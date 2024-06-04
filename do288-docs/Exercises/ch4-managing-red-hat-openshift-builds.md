@@ -1,0 +1,32 @@
+- [Task 1: Customize S2I build by overriding the default scripts](https://role.rhu.redhat.com/rol-rhu/app/courses/do288-4.12/pages/ch04s08) 
+    - Customize the build to add the following
+        - A custom page with the following message 
+        - "Welcome to Openshift. DO288 absolutely rocks!!"
+        - An info.html page that contains the below build message.
+            - "Page Built On MMM dd, YYYY"
+            - "Proudly served by Apache HTTP Server version $HTTPD_VERSION"
+    - Git repository: https://github.com/ozyohthree/DO288-apps.git
+    - Git branch: source-build
+    - Git directory: s2i-scripts
+    - Project name: Greeting
+    - Application name: Greeting 
+    - Use the latest rhscl/httpd-24-rhel7 image
+
+- [Task 2: Deploy application with Docker Strategy and fix Issue with OpenShift Build](https://role.rhu.redhat.com/rol-rhu/app/courses/do288-4.12/pages/ch04s09)
+    - The application team introduced a bug in the repo, troubleshoot and resolve the issue.
+    - Git repository: https://github.com/ozyohthree/DO288-apps.git
+    - Git branch: builds-review
+    - Git directory: builds-review    
+    - Project Name: expense
+    - Application name: expense-service
+    - Build Strategy: Docker
+
+
+- [Task 3: Fix s2i issues](https://role.rhu.redhat.com/rol-rhu/app/courses/do288-4.10/pages/ch04s09)
+    - The application team has been having issues deploying the below application, troubleshoot and resolve the issue. 
+    - Application Git repository: 
+    - Application Git branch: builds-review
+    - Git directory: build app
+    - Application stack: Nodejs
+    - Application Nexus server: http://<update this>/repository/nodejs
+    - Build script: build.sh
